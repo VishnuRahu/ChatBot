@@ -130,7 +130,7 @@ def chatresponse(request):
 
     print("chat called")
     question=request.POST['text']
-    os.environ["OPENAI_API_KEY"]="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"
+    os.environ["OPENAI_API_KEY"]="YOUR OPENAI KEY"
     text_splitter=CharacterTextSplitter(
     separator="\n",
     chunk_size=10000,
