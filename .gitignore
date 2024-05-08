@@ -1,0 +1,21 @@
+
+# Python-related
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual environments
+env/
+venv/
+*.egg-info/
+
+# Django-related
+db.sqlite3
+*.db
+media/
+*.log
+
+# IDE-related (e.g., for VSCode, PyCharm)
+.vscode/
+.idea/
